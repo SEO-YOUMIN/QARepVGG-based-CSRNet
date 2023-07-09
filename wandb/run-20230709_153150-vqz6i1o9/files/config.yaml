@@ -1,0 +1,100 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.13
+    cli_version: 0.15.4
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1688916710.235561
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 23
+      4: 3.8.13
+      5: 0.15.4
+      8:
+      - 5
+train_json:
+  desc: null
+  value: part_A_train.json
+test_json:
+  desc: null
+  value: part_A_val.json
+pre:
+  desc: null
+  value: null
+gpu:
+  desc: null
+  value: '0'
+task:
+  desc: null
+  value: '0'
+wandb:
+  desc: null
+  value: QARepVGG-based-CSRNet
+kd:
+  desc: null
+  value: false
+online:
+  desc: null
+  value: false
+kd_weight:
+  desc: null
+  value: 1
+gt_weight:
+  desc: null
+  value: 1
+original_lr:
+  desc: null
+  value: 1.0e-07
+lr:
+  desc: null
+  value: 1.0e-07
+batch_size:
+  desc: null
+  value: 4
+momentum:
+  desc: null
+  value: 0.95
+decay:
+  desc: null
+  value: 0.0005
+start_epoch:
+  desc: null
+  value: 0
+epochs:
+  desc: null
+  value: 400
+steps:
+  desc: null
+  value:
+  - -1
+  - 1
+  - 100
+  - 150
+scales:
+  desc: null
+  value:
+  - 1
+  - 1
+  - 1
+  - 1
+workers:
+  desc: null
+  value: 4
+seed:
+  desc: null
+  value: 1688916708.2563844
+print_freq:
+  desc: null
+  value: 30

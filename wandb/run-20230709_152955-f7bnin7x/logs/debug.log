@@ -1,0 +1,29 @@
+2023-07-09 15:29:55,969 INFO    MainThread:31404 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-07-09 15:29:55,969 INFO    MainThread:31404 [wandb_setup.py:_flush():76] Configure stats pid to 31404
+2023-07-09 15:29:55,969 INFO    MainThread:31404 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-07-09 15:29:55,969 INFO    MainThread:31404 [wandb_setup.py:_flush():76] Loading settings from /workspace/CSR/QARepVGG/CSRNet_QARepVGG/wandb/settings
+2023-07-09 15:29:55,969 INFO    MainThread:31404 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-09 15:29:55,969 INFO    MainThread:31404 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-09 15:29:55,969 INFO    MainThread:31404 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'train.py'}
+2023-07-09 15:29:55,970 INFO    MainThread:31404 [wandb_init.py:_log_setup():507] Logging user logs to /workspace/CSR/QARepVGG/CSRNet_QARepVGG/wandb/run-20230709_152955-f7bnin7x/logs/debug.log
+2023-07-09 15:29:55,970 INFO    MainThread:31404 [wandb_init.py:_log_setup():508] Logging internal logs to /workspace/CSR/QARepVGG/CSRNet_QARepVGG/wandb/run-20230709_152955-f7bnin7x/logs/debug-internal.log
+2023-07-09 15:29:55,970 INFO    MainThread:31404 [wandb_init.py:init():547] calling init triggers
+2023-07-09 15:29:55,970 INFO    MainThread:31404 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-09 15:29:55,970 INFO    MainThread:31404 [wandb_init.py:init():596] starting backend
+2023-07-09 15:29:55,970 INFO    MainThread:31404 [wandb_init.py:init():600] setting up manager
+2023-07-09 15:29:55,973 INFO    MainThread:31404 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-09 15:29:55,975 INFO    MainThread:31404 [wandb_init.py:init():606] backend started and connected
+2023-07-09 15:29:55,977 INFO    MainThread:31404 [wandb_init.py:init():703] updated telemetry
+2023-07-09 15:29:55,978 INFO    MainThread:31404 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-07-09 15:29:56,614 INFO    MainThread:31404 [wandb_run.py:_on_init():2176] communicating current version
+2023-07-09 15:29:56,667 INFO    MainThread:31404 [wandb_run.py:_on_init():2185] got version response upgrade_message: "wandb version 0.15.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-07-09 15:29:56,667 INFO    MainThread:31404 [wandb_init.py:init():787] starting run threads in backend
+2023-07-09 15:29:57,121 INFO    MainThread:31404 [wandb_run.py:_console_start():2155] atexit reg
+2023-07-09 15:29:57,122 INFO    MainThread:31404 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-07-09 15:29:57,122 INFO    MainThread:31404 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-07-09 15:29:57,122 INFO    MainThread:31404 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-07-09 15:29:57,123 INFO    MainThread:31404 [wandb_init.py:init():828] run started, returning control to user process
+2023-07-09 15:29:57,124 INFO    MainThread:31404 [wandb_run.py:_config_callback():1283] config_cb None None {'train_json': 'part_A_train.json', 'test_json': 'part_A_val.json', 'pre': None, 'gpu': '0', 'task': '0', 'wandb': 'QARepVGG-based-CSRNet', 'kd': False, 'online': False, 'kd_weight': 1, 'gt_weight': 1, 'original_lr': 1e-07, 'lr': 1e-07, 'batch_size': 4, 'momentum': 0.95, 'decay': 0.0005, 'start_epoch': 0, 'epochs': 400, 'steps': [-1, 1, 100, 150], 'scales': [1, 1, 1, 1], 'workers': 4, 'seed': 1688916594.1910048, 'print_freq': 30}
+2023-07-09 15:30:14,651 WARNING MsgRouterThr:31404 [router.py:message_loop():77] message_loop has been closed
